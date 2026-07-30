@@ -107,6 +107,10 @@ img {
   height: 100%;
 }
 
+.main-header .content h1 {
+  color: var(--warning);
+}
+
 .main-header::before {
   content: "";
   position: absolute;
@@ -173,4 +177,29 @@ img {
 .gallary img:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.card {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 2rem;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: var(--white);
+  font-weight: 500;
+}
+
+/* teams */
+.teams img {
+  border-radius: 50%;
+}
+
+.teams img:hover {
+  opacity: 0.7;
 }

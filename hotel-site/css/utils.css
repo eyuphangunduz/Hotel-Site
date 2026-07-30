@@ -150,8 +150,12 @@
 }
 
 .flex-items > div {
-  padding: 20px;
+  padding: 10px;
   flex-basis: 100%;
+}
+
+.flex-items .special {
+  color: var(--dark);
 }
 
 /* flex columns */
