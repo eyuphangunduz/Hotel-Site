@@ -130,4 +130,18 @@
 }
 
 /* flex-items */
+.flex-items {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  display: flex;
+}
+
+.flex-items > div {
+  padding: 20px;
+  flex-basis: 100%;
+}
+
+.services p {
+}
 /* flex grid */

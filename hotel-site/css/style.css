@@ -135,3 +135,32 @@ img {
   max-width: 600px;
   margin: 2rem 0 3rem;
 }
+
+/* icons */
+
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: var(--primary);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.icons p {
+  color: var(--dark);
+  font-weight: 500;
+}
